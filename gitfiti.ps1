@@ -823,7 +823,7 @@ $Env:GIT_AUTHOR_DATE="2022-02-26T12:00:00"
 $Env:GIT_COMMITTER_DATE="2022-02-26T12:00:00"
 git commit --allow-empty -m "gitfiti" | Out-Null
 
-git branch -M main
+git branch -M master
 git remote add origin git@github.com:rickymolnar/$REPO.git
-git pull origin main
-git push -u origin main
+git pull origin master
+git push -u origin master
